@@ -1,6 +1,6 @@
 # 🔐 UtilsX - Generador de Contraseñas y QR
 
-Una herramienta web simple y útil para generar contraseñas seguras y códigos QR.
+UtilsX es una herramienta web simple y útil para generar contraseñas seguras y códigos QR. Además ¡GRATIS!
 
 ## ✨ Características
 
@@ -16,14 +16,14 @@ Una herramienta web simple y útil para generar contraseñas seguras y códigos 
 - Descarga directa en formato PNG
 - Interfaz intuitiva y responsiva
 
-## 🚀 Demo en Vivo
+## 🚀 Página en Vivo
 
-👉 **[Ver Demo](https://imgaburel.github.io/password-qr-generator/src/)**
+👉 **[Ver sitio web](https://imgaburel.github.io/password-qr-generator/src/)**
 
 ## 🛠️ Tecnologías
 
 - **HTML5** - Estructura semántica
-- **CSS3** - Diseño moderno y responsivo
+- **CSS3** - Para un diseño moderno y responsivo
 - **JavaScript** - Funcionalidad interactiva
 - **QRious.js** - Generación de códigos QR
 - **Font Awesome** - Iconos
