@@ -32,7 +32,7 @@ Una herramienta web simple y útil para generar contraseñas seguras y códigos 
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/tu-usuario/password-qr-generator.git
+git clone https://github.com/imgaburel/password-qr-generator.git
 
 # Navegar al directorio
 cd password-qr-generator
