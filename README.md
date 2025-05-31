@@ -18,7 +18,7 @@ UtilsX es una herramienta web simple y útil para generar contraseñas seguras y
 
 ## 🚀 Página en Vivo
 
-👉 **[Ver sitio web](https://imgaburel.github.io/UtilsX-Pass-QR-Gen)**
+👉 **[Ver sitio web](https://imgaburel.github.io/UtilsX-Pass-QR-Gen/src/)**
 
 ## 🛠️ Tecnologías
 
