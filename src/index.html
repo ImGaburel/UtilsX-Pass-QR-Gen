@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UtilsX - Generador de Contraseñas y QR</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1><i class="fas fa-tools"></i> UtilsX</h1>
+        <p>Generador de Contraseñas Seguras y Códigos QR</p>
+    </header>
+
+    <main>
+        <!-- Sección Generador de Contraseñas -->
+        <section class="tool-section" id="password-section">
+            <h2><i class="fas fa-key"></i> Generador de Contraseñas</h2>
+            <div class="controls">
+                <div class="control-group">
+                    <label for="length">Longitud: <span id="length-value">12</span></label>
+                    <input type="range" id="length" min="4" max="50" value="12">
+                </div>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" id="uppercase" checked> Mayúsculas</label>
+                    <label><input type="checkbox" id="lowercase" checked> Minúsculas</label>
+                    <label><input type="checkbox" id="numbers" checked> Números</label>
+                    <label><input type="checkbox" id="symbols"> Símbolos</label>
+                </div>
+                <button id="generate-password" class="btn primary">
+                    <i class="fas fa-sync-alt"></i> Generar
+                </button>
+            </div>
+            <div class="result">
+                <input type="text" id="password-result" readonly placeholder="Tu contraseña aparecerá aquí">
+                <button id="copy-password" class="btn secondary">
+                    <i class="fas fa-copy"></i> Copiar
+                </button>
+            </div>
+            <div class="strength-meter">
+                <div class="strength-bar" id="strength-bar"></div>
+                <span id="strength-text">Seguridad: Media</span>
+            </div>
+        </section>
+
+        <!-- Sección Generador QR -->
+        <section class="tool-section" id="qr-section">
+            <h2><i class="fas fa-qrcode"></i> Generador de Códigos QR</h2>
+            <div class="controls">
+                <div class="control-group">
+                    <label for="qr-text">Texto o URL:</label>
+                    <textarea id="qr-text" placeholder="Ingresa el texto o URL para generar el QR"></textarea>
+                </div>
+                <div class="control-group">
+                    <label for="qr-size">Tamaño:</label>
+                    <select id="qr-size">
+                        <option value="200">200x200</option>
+                        <option value="300" selected>300x300</option>
+                        <option value="400">400x400</option>
+                        <option value="500">500x500</option>
+                    </select>
+                </div>
+                <button id="generate-qr" class="btn primary">
+                    <i class="fas fa-qrcode"></i> Generar QR
+                </button>
+            </div>
+            <div class="qr-result" id="qr-result">
+                <p>El código QR aparecerá aquí</p>
+            </div>
+            <button id="download-qr" class="btn secondary" style="display: none;">
+                <i class="fas fa-download"></i> Descargar QR
+            </button>
+        </section>
+    </main>
+
+    <footer>
+        <p>Hecho con ❤️ para la comunidad | 
+        <a href="https://github.com/tu-usuario/password-qr-generator" target="_blank">
+            <i class="fab fa-github"></i> GitHub
+        </a></p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrious/4.0.2/qrious.min.js"></script>
+    <script src="js/passwordGenerator.js"></script>
+    <script src="js/qrGenerator.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
