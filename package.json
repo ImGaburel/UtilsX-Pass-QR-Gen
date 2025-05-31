@@ -1,0 +1,34 @@
+{
+  "name": "password-qr-generator",
+  "version": "1.0.0",
+  "description": "🔐 Generador de contraseñas seguras y códigos QR - Herramienta web útil para la comunidad",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "serve src",
+    "dev": "live-server src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imgaburel/password-qr-generator.git"
+  },
+  "keywords": [
+    "password-generator",
+    "qr-code",
+    "security",
+    "tools",
+    "web-app",
+    "javascript",
+    "html5",
+    "css3"
+  ],
+  "author": "Carlos Gaburel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/imgaburel/password-qr-generator/issues"
+  },
+  "homepage": "https:/imgaburel.github.io/password-qr-generator/src/",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "serve": "^14.2.0"
+  }
+}
