@@ -1,7 +1,7 @@
 {
-  "name": "password-qr-generator",
-  "version": "1.0.0",
-  "description": "🔐 Generador de contraseñas seguras y códigos QR - Herramienta web útil para la comunidad",
+  "name": "utilsx-pass-qr-gen",
+  "version": "1.2.0",
+  "description": "🔐 Generador OpenSource de contraseñas seguras y códigos QR - Herramienta web útil para la comunidad",
   "main": "src/index.html",
   "scripts": {
     "start": "serve src",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/imgaburel/password-qr-generator.git"
+    "url": "git+https://github.com/ImGaburel/UtilsX-Pass-QR-Gen.git"
   },
   "keywords": [
     "password-generator",
@@ -24,9 +24,9 @@
   "author": "Carlos Gaburel",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/imgaburel/password-qr-generator/issues"
+    "url": "https://github.com/ImGaburel/UtilsX-Pass-QR-Gen/issues"
   },
-  "homepage": "https://imgaburel.github.io/password-qr-generator/src/",
+  "homepage": "https://imgaburel.github.io/UtilsX-Pass-QR-Gen/src/",
   "devDependencies": {
     "live-server": "^1.2.2",
     "serve": "^14.2.0"
